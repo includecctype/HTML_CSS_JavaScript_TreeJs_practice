@@ -5,12 +5,17 @@
     <link rel = "stylesheet" href = "images.css">
     <link rel = "stylesheet" href = "datatype.css">
     <link rel = "icon" type = "image/x-icon" href = "logo.jpeg">
+    <script>
+        function working(){ 
+            document.getElementById("trying").innerHTML = "Word changed";
+        }
+    </script>
     <title>Auto-Planner</title>
 </head>
 <body>
     <header class = "sticking">
     <ul class = "rowsec">
-        <li><a href = "solution.html">Solution</a></li>
+        <li><a href = "solution.html" id = "trying">Solution</a></li>
         <li><a href = "goalsandcustomers.html">Goals and Customers</a></li>
         <li><a href = "financeandbusinessmodel.html">Business and Financial Model</a></li>
         <li><a href = "competitors.html">Competitors</a></li>
@@ -29,6 +34,10 @@
     <br>
     <hr>
     <br>
+    <p id = "trying">Hello There</p>
+    <button type = "button" onclick = "working()">click me</button>
+
+    <button type = "button" onclick = "window.print()">print page</button>
     <footer class = "forfooter">
     <address>
         <p>Soo Zhan Thong.</p>
